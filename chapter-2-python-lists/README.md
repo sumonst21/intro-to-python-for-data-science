@@ -1,3 +1,7 @@
+# Python Lists
+Learn to store, access and manipulate data in lists: the first step towards efficiently working with huge amounts of data.
+
+
 ## Create a list
 As opposed to int, bool etc., a list is a compound data type; you can group values together:
 
@@ -31,4 +35,11 @@ my_list = [el1, el2, el3]
 Can you tell which ones of the following lines of Python code are valid ways to build a list?
 
 A. [1, 3, 4, 2] B. [[1, 2, 3], [4, 5, 7]] C. [1 + 2, "a" * 5, 3]
+
+## List of lists
+As a data scientist, you'll often be dealing with a lot of data, and it will make sense to group some of this data.
+
+Instead of creating a flat list containing strings and floats, representing the names and areas of the rooms in your house, you can create a list of lists. The script on the right can already give you an idea.
+
+Don't get confused here: "hallway" is a string, while hall is a variable that represents the float 11.25 you specified earlier.
 
