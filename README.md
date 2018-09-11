@@ -1,1 +1,1 @@
-# intro-to-python-for-data-science
+# Intro to Python for Data Science
