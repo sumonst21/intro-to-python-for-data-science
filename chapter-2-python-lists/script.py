@@ -73,3 +73,19 @@ eat_sleep_area = areas[3] + areas[-3]
 
 # Print the variable eat_sleep_area
 print(eat_sleep_area)
+
+##Slicing and dicing
+# Create the areas list
+areas = ["hallway", 11.25, "kitchen", 18.0, "living room",
+         20.0, "bedroom", 10.75, "bathroom", 9.50]
+
+# Use slicing to create downstairs
+downstairs = areas[:-4]
+
+# Use slicing to create upstairs
+upstairs = areas[6:]
+
+# Print out downstairs and upstairs
+print(downstairs)
+print(upstairs)
+print(downstairs + upstairs)
