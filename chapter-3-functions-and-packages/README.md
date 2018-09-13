@@ -19,6 +19,10 @@ To leverage the code that brilliant Python developers have written, you'll learn
 
 ### Functions
 
+A function is a block of code which only runs when it is called.
+You can pass data, known as parameters, into a function.
+A function can return data as a result.
+
 ### Familiar functions
 
 Out of the box, Python offers a bunch of built-in functions to make your life as a data scientist easier. You already know two such functions: [print()](https://docs.python.org/3/library/functions.html#print) and [type()](https://docs.python.org/3/library/functions.html#type). You've also used the functions [str()](https://docs.python.org/3/library/functions.html#func-str), [int()](https://docs.python.org/3/library/functions.html#int), [bool()](https://docs.python.org/3/library/functions.html#bool) and floa[t()](https://docs.python.org/3/library/functions.html#float) to switch between data types. These are built-in functions as well.
@@ -80,6 +84,27 @@ Two lists have been created for you on the right. Can you paste them together an
 Note: For now, we can understand an [iterable](https://docs.python.org/2/glossary.html#term-iterable) as being any collection of objects, e.g. a List.
 
 ### Methods
+
+#### Build-in Functions
+
+- Maximum of list: max()
+- Length of list or string: len()
+- Get index in list: ?
+- Reversing a list: ?
+
+[Link to the video on my course](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-3-functions-and-packages?ex=5)
+
+> Methods: Functions that belongs to objects
+
+##### Example of Methods
+
+- capitalize()  replace()
+- bit_length()  conjugate()
+- index()   count()
+
+```txt
+In Python Everything is Object and each object have spacific methods associated, depending on the type
+```
 
 ### String Methods
 
