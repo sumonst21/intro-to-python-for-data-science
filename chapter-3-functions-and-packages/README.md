@@ -7,7 +7,7 @@ To leverage the code that brilliant Python developers have written, you'll learn
 [Functions](#functions)  
 [Familiar functions](#familiar_functions)  
 [Help!](#help)  
-[Multiple arguments](#multiple_arguments)  
+[Multiple arguments](#multiple-arguments)  
 [Methods](#methods)  
 [String Methods](#string_methods)  
 [List Methods](#list_methods)  
@@ -19,17 +19,17 @@ To leverage the code that brilliant Python developers have written, you'll learn
 
 <a name="functions"/>
 
-## Functions
-
- [text](https://link)
+### Functions
 
 <a name="familiar_functions" />
 
-## Familiar functions
+### Familiar functions
 
 <a name="Help" />
 
-## Help!
+### Help!
+
+[Multiple Arguments](#multiple-arguments)
 
 ## Multiple Arguments
 
