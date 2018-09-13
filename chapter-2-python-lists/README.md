@@ -86,3 +86,17 @@ x[2][:2]
 x[2] results in a list, that you can subset again by adding additional square brackets.
 
 What will house[-1][1] return? house, the list of lists that you created before, is already defined for you in the workspace. You can experiment with it in the IPython Shell.
+
+## List Manipulation 
+###### 
+## Replace list elements
+Replacing list elements is pretty easy. Simply subset the list and assign new values to the subset. You can select single elements or you can change entire list slices at once.
+
+Use the IPython Shell to experiment with the commands below. Can you tell what's happening and why?
+```
+x = ["a", "b", "c", "d"]
+x[1] = "r"
+x[2:] = ["s", "t"]
+```
+For this and the following exercises, you'll continue working on the areas list that contains the names and areas of different rooms in a house.
+
