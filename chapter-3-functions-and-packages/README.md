@@ -56,8 +56,8 @@ Use the Shell on the right to open up the documentation on [complex()](https://d
 
 -[ ] complex() takes exactly two arguments: real and [, imag].
 -[ ] complex() takes two arguments: real and imag. Both these arguments are required.
--[ ] complex() takes two arguments: real and imag. real is a required argument, imag is an optional argument.
--[] complex() takes two arguments: real and imag. If you don't specify imag, it is set to 1 by Python.
+-[x] complex() takes two arguments: real and imag. real is a required argument, imag is an optional argument.
+-[ ] complex() takes two arguments: real and imag. If you don't specify imag, it is set to 1 by Python.
 
 ### Multiple Arguments
 
