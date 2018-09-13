@@ -132,3 +132,22 @@ areas = ["hallway", 11.25, "kitchen", 18.0, "chill zone", 20.0,
          "bedroom", 10.75, "bathroom", 10.50, "poolhouse", 24.5, "garage", 15.4]
 
 del(areas[-4:-2]) ## this removes poolhouse & its value
+
+
+## Inner workings of lists
+# Create list areas
+areas = [11.25, 18.0, 20.0, 10.75, 9.50]
+
+# Create areas_copy
+areas_copy = list(areas)
+## alternatively the above can be also done using: [:] like: areas_copy = areas[:]
+
+# Change areas_copy
+areas_copy[0] = 5.0
+
+# Print areas
+print(areas) # this don't have any effect
+
+# print the explicit copy
+print(areas_copy)
+
