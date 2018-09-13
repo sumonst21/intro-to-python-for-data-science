@@ -17,7 +17,7 @@ After measuring the height of your family, you decide to collect some informatio
 
  - Create a list, areas, that contains the area of the hallway (hall), kitchen (kit), living room (liv), bedroom (bed) and bathroom (bath), in this order. Use the predefined variables.
 
-- Print areas with the print() function.
+- Print areas with the `print()` function.
 
 ## Create list with different types
 A list can contain any Python type. Although it's not really common, a list can also contain a mix of Python types including strings, floats, booleans, etc.
@@ -30,11 +30,13 @@ The code on the right is the start of a solution. For some of the areas, the nam
 ## Select the valid list
 
 A list can contain any Python type. But a list itself is also a Python type. That means that a list can also contain a list! Python is getting funkier by the minute, but fear not, just remember the list syntax:
-
+```
 my_list = [el1, el2, el3]
+```
 Can you tell which ones of the following lines of Python code are valid ways to build a list?
-
+```
 A. [1, 3, 4, 2] B. [[1, 2, 3], [4, 5, 7]] C. [1 + 2, "a" * 5, 3]
+```
 
 ## List of lists
 As a data scientist, you'll often be dealing with a lot of data, and it will make sense to group some of this data.
@@ -45,32 +47,37 @@ Don't get confused here: "hallway" is a string, while hall is a variable that re
 
 ## Subset and conquer
 Subsetting Python lists is a piece of cake. Take the code sample below, which creates a list x and then selects "b" from it. Remember that this is the second element, so it has index 1. You can also use negative indexing.
-
+```
 x = ["a", "b", "c", "d"]
 x[1]
 x[-3] # same result!
+```
 Remember the areas list from before, containing both strings and floats? Its definition is already in the script. Can you add the correct code to do some Python subsetting?
 
  > example code for Subset and conquer added on the script.py
 
 ## Subset and calculate
 After you've extracted values from a list, you can use them to perform additional calculations. Take this example, where the second and fourth element of a list x are extracted. The strings that result are pasted together using the + operator:
-
+```
 x = ["a", "b", "c", "d"]
 print(x[1] + x[3])
-
+```
  > example code for Subset and calculate  added on the script.py
 
 ## Slicing and dicing
 Selecting single values from a list is just one part of the story. It's also possible to slice your list, which means selecting multiple elements from your list. Use the following syntax:
 
  > my_list[start:end]
+
 The start index will be included, while the end index is not.
 
 The code sample below shows an example. A list with "b" and "c", corresponding to indexes 1 and 2, are selected from a list x:
 
- > x = ["a", "b", "c", "d"]
- > x[1:3]
+```
+x = ["a", "b", "c", "d"]
+x[1:3]
+```
+
 The elements with index 1 and 2 are included, while the element with index 3 is not.
 
 
@@ -102,9 +109,11 @@ For this and the following exercises, you'll continue working on the areas list 
 
 ## Extend a list
 If you can change elements in a list, you sure want to be able to add elements to it, right? You can use the + operator:
-
+```
 x = ["a", "b", "c", "d"]
 y = x + ["e", "f"]
+```
+
 You just won the lottery, awesome! You decide to build a poolhouse and a garage. Can you add the information to the areas list?
  > example code added on the script.py
 
@@ -141,7 +150,7 @@ Which of the code chunks will do the job for us?
 ###### Possible Answers
 - [ ] del(areas[10]); del(areas[11])
 - [ ] del(areas[10:11])
-- [x ] del(areas[-4:-2])
+- [x] del(areas[-4:-2])
 - [ ] del(areas[-3]); del(areas[-4])
 
 ## Inner workings of lists
