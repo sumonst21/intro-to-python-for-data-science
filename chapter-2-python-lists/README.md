@@ -100,3 +100,12 @@ x[2:] = ["s", "t"]
 ```
 For this and the following exercises, you'll continue working on the areas list that contains the names and areas of different rooms in a house.
 
+## Extend a list
+If you can change elements in a list, you sure want to be able to add elements to it, right? You can use the + operator:
+
+x = ["a", "b", "c", "d"]
+y = x + ["e", "f"]
+You just won the lottery, awesome! You decide to build a poolhouse and a garage. Can you add the information to the areas list?
+ > example code added on the script.py
+
+ 
