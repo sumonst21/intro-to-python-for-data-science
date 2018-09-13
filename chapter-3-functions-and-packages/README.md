@@ -35,6 +35,10 @@ The general recipe for calling functions and saving the result to a variable is 
 output = function_name(input)
 ```
 
+ > Code example added on script.py
+
+`The [len()](https://docs.python.org/3/library/functions.html#len) function is extremely useful;`
+
 ### Help"!"
 
 ### Multiple Arguments
