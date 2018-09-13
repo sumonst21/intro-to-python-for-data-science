@@ -5,6 +5,7 @@ To leverage the code that brilliant Python developers have written, you'll learn
 ##### Table of Contents
 
 [Functions](#functions)
+
 [Familiar functions](#familiar_functions)
 [Help!](#help)
 [Multiple arguments](#multiple_arguments)
