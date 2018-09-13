@@ -39,7 +39,25 @@ output = function_name(input)
 
 `The [len()](https://docs.python.org/3/library/functions.html#len) function is extremely useful;`
 
-### Help"!"
+### Help"&#33;"
+
+Maybe you already know the name of a Python function, but you still have to figure out how to use it. Ironically, you have to ask for information about a function with another function: [help()](https://docs.python.org/3/library/functions.html#help). In IPython specifically, you can also use ? before the function name.
+
+To get help on the [max()](https://docs.python.org/3/library/functions.html#max) function, for example, you can use one of these calls:
+
+```py
+help(max)
+?max
+```
+
+Use the Shell on the right to open up the documentation on [complex()](https://docs.python.org/3/library/functions.html#complex). Which of the following statements is true?
+
+#### Possible Answers
+
+-[ ] complex() takes exactly two arguments: real and [, imag].
+-[ ] complex() takes two arguments: real and imag. Both these arguments are required.
+-[ ] complex() takes two arguments: real and imag. real is a required argument, imag is an optional argument.
+-[] complex() takes two arguments: real and imag. If you don't specify imag, it is set to 1 by Python.
 
 ### Multiple Arguments
 
