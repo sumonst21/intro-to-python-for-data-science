@@ -120,7 +120,25 @@ A string `place` has already been created for you to experiment with.
 
 > Solution added on script.py
 
+### List Methods
+
+Strings are not the only Python types that have methods associated with them. Lists, floats, integers and booleans are also types that come packaged with a bunch of useful methods. In this exercise, you'll be experimenting with:
+
+[index()](https://docs.python.org/3/library/stdtypes.html#str.index), to get the index of the first element of a list that matches its input and
+[count()](https://docs.python.org/3/library/stdtypes.html#str.count), to get the number of times an element appears in a list.
+You'll be working on the list with the area of different parts of a house: `areas`.
+
 ### List Methods 2
+
+List Methods (2)
+Most list methods will change the list they're called on. Examples are:
+
+[append()](https://docs.python.org/3/library/stdtypes.html#typesseq-mutable), that adds an element to the list it is called on,
+[remove()](https://docs.python.org/3/library/stdtypes.html#typesseq-mutable), that removes the first element of a list that matches the input, and
+[reverse()](https://docs.python.org/3/library/stdtypes.html#typesseq-mutable), that reverses the order of the elements in the list it is called on.
+You'll be working on the list with the area of different parts of the house: `areas`.
+
+> example added on script.py
 
 ### Packages
 
