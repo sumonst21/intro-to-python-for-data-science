@@ -27,3 +27,21 @@ full_sorted = sorted(full, reverse=True)
 
 # Print out full_sorted
 print(full_sorted)
+
+### String Methods
+# string to experiment with: place
+place = "poolhouse"
+
+# Use upper() on place: place_up
+place_up = place.upper()
+
+# Print out place and place_up
+print(place)
+print(place_up)
+
+# Print out the number of o's in place
+print(place.count("o"))
+
+"""
+Nice! Notice from the printouts that the <code>upper()</code> method does not change the object it is called on. This will be different for lists in the next exercise!
+"""
