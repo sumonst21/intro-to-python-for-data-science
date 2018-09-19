@@ -91,3 +91,22 @@ Can you tell which code chunk builds the exact same Python object? The `numpy` p
 - [x] np.array([4, 3, 0]) + np.array([0, 2, 2])
 - [ ] np.array([1, 1, 2]) + np.array([3, 4, -1])
 - [ ] np.array([0, 1, 2, 3, 4, 5])
+
+## Subsetting NumPy Arrays
+
+You've seen it with your own eyes: Python lists and `numpy` arrays sometimes behave differently. Luckily, there are still certainties in this world. For example, subsetting (using the square bracket notation on lists or arrays) works exactly the same. To see this for yourself, try the following lines of code in the IPython Shell:
+
+```py
+x = ["a", "b", "c"]
+x[1]
+
+np_x = np.array(x)
+np_x[1]
+```
+
+The script on the right already contains code that imports `numpy` as `np`, and stores both the height and weight of the MLB players as `numpy` arrays.
+
+### Instructions - Subsetting NumPy Arrays
+
+- Subset `np_weight` by printing out the element at index 50.
+- Print out a sub-array of `np_height` that contains the elements at index 100 up to **and including** index 110.
